@@ -41,13 +41,9 @@ body {
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
   display: inline-block;
-  background-image: linear-gradient(
-    to right,
-    $color-primary-light,
-    $color-primary-dark
-  );
+  background-image: linear-gradient(to right, #b92b27, #1565c0);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
