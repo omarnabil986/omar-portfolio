@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { EducationCardComponent } from './education-card/education-card.component';
 
 @Component({
   selector: 'app-education',
-  imports: [],
+  imports: [EducationCardComponent],
   templateUrl: './education.component.html',
-  styleUrl: './education.component.scss'
+  styleUrl: './education.component.scss',
 })
-export class EducationComponent {
-
-}
+export class EducationComponent {}
