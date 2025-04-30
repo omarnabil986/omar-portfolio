@@ -13,12 +13,12 @@ import { MatCardModule } from '@angular/material/card';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class EducationCardComponent {
-  smallImagePath = input.required<string>();
+  mainImagePath = input.required<string>();
   title = input.required<string>();
   subtitle = input.required<string>();
   description = input.required<string>();
 
-  get titleImagePath() {
-    return `assets/ ${this.smallImagePath}`;
+  get bigImagePath() {
+    return `assets/${this.mainImagePath()}`;
   }
 }
