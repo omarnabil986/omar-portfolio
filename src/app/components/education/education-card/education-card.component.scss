@@ -1,19 +1,19 @@
 @import "../../../../styles/main.scss";
 
-.example-card {
-  max-width: 300px;
+.education-card {
+  max-width: 330px;
   border: 1px solid $color-black;
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 700;
   color: #000;
   margin-bottom: 1rem;
 }
 
 .subTitle {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   color: #000;
   margin-bottom: 1rem;
@@ -26,8 +26,9 @@
   margin-bottom: 1rem;
 }
 
-.header-image {
+.logo-image {
   background-size: cover;
+  border: 1px solid $color-grey-dark;
 }
 
 img {
@@ -36,4 +37,5 @@ img {
   border-top: 1px solid $color-black;
   border-bottom: 1px solid $color-black;
   margin-bottom: 1rem;
+  background-color: $color-white;
 }
