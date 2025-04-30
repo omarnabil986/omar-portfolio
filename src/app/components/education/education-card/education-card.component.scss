@@ -3,6 +3,13 @@
 .education-card {
   max-width: 330px;
   border: 1px solid $color-black;
+  box-shadow: 0 2px 8px rgba($color-black, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba($color-black, 0.2);
 }
 
 .title {
