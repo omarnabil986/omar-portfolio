@@ -1,6 +1,12 @@
 <mat-card class="example-card" appearance="outlined">
   <mat-card-header>
-    <div mat-card-avatar class="header-image"></div>
+    <div
+      mat-card-avatar
+      class="header-image"
+      [ngStyle]="{
+        'background-image': 'url(' + logoUrl + ')'
+      }"
+    ></div>
     <mat-card-title class="title">{{ title() }}</mat-card-title>
     <mat-card-subtitle class="subTitle">{{ subtitle() }}</mat-card-subtitle>
   </mat-card-header>
