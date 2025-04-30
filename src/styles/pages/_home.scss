@@ -1,6 +1,6 @@
 .section-education {
   background-color: $color-gray-ligh-1;
-  padding: 8rem 4rem;
+  padding: 8rem 0;
 
   @include respond(tab-port) {
     padding: 20rem 0;
