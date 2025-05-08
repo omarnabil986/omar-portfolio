@@ -6,3 +6,23 @@
     padding: 20rem 0;
   }
 }
+
+.section-projects {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url(../../assets/photo-1523961131990-5ea7c61b2107.avif);
+  background-size: cover;
+  background-position: center;
+  transform: skewY(-7deg);
+  & > * {
+    transform: skewY(7deg);
+  }
+
+  @include respond(tab-port) {
+    padding: 10rem 0;
+  }
+}
