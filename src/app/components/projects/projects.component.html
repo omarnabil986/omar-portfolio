@@ -1,0 +1,13 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  @for (project of projects; track project.name) {
+  <div class="col">
+    <app-project-card
+      [imageUrl]="project.imageUrl"
+      [name]="project.name"
+      [description]="project.description"
+      [techStack]="project.techStack"
+      [githubUrl]="project.githubUrl"
+    />
+  </div>
+  }
+</div>

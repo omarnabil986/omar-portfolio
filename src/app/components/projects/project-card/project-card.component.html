@@ -1,0 +1,29 @@
+<!-- <div class="row row-cols-1 row-cols-md-3 g-4"> -->
+<div class="col">
+  <div class="card h-100">
+    <img [src]="imageUrl()" class="card-img-top" alt="project image" />
+    <div class="card-body">
+      <h5 class="card-title">{{ name() }}</h5>
+      <p class="card-text">
+        {{ description() }}
+      </p>
+      <div class="tech-stack mb-2">
+        <span
+          class="badge bg-secondary me-1 mb-1"
+          *ngFor="let tech of techStack()"
+          >{{ tech }}</span
+        >
+      </div>
+      <a
+        *ngIf="githubUrl()"
+        [href]="githubUrl()"
+        class="btn btn-github me-2"
+        target="_blank"
+        rel="noopener"
+      >
+        Visit GitHub
+      </a>
+    </div>
+  </div>
+</div>
+<!-- </div> -->
