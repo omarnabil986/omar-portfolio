@@ -14,6 +14,7 @@ export class ProjectsService {
         techStack: ['Angular', 'TypeScript', 'HTML', 'CSS'],
         githubUrl:
           'https://github.com/omarnabil986/Tasks-management-app-Angular',
+        liveDemoUrl: 'https://ng-deployment-example-be768.web.app/',
       },
       {
         imageUrl: 'assets/projects/Screenshot 2025-05-26 142103.png',
