@@ -25,6 +25,21 @@ export class ProjectsService {
           'https://github.com/omarnabil986/Advance-CSS-Sass-Projects/tree/main/Natours',
         liveDemoUrl: 'https://natours-omar.netlify.app/',
       },
+      {
+        imageUrl:
+          'assets/projects/Gemini_Generated_Image_ahmw9kahmw9kahmw.jpeg',
+        name: 'Product Management App',
+        description: 'Manage products with ease and efficiency',
+        techStack: ['MongoDB', 'Express.js', 'Angular', 'Node.js'],
+        githubUrl: 'https://github.com/omarnabil986/product-management-app',
+      },
+      {
+        imageUrl: 'assets/projects/Library.jpeg',
+        name: 'Library Management System',
+        description: 'A comprehensive library management system',
+        techStack: ['ASP.NET Core', 'C#', 'EF Core', 'SQL Server'],
+        githubUrl: 'https://github.com/mazenaym/Library',
+      },
     ];
   }
 }
