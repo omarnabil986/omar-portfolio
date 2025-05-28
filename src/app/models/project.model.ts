@@ -4,4 +4,5 @@ export interface Project {
   description: string;
   techStack: string[];
   githubUrl: string;
+  liveDemoUrl?: string;
 }

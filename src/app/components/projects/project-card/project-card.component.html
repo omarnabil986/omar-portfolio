@@ -1,4 +1,3 @@
-<!-- <div class="row row-cols-1 row-cols-md-3 g-4"> -->
 <div class="col">
   <div class="card h-100">
     <img [src]="imageUrl()" class="card-img-top" alt="project image" />
@@ -14,16 +13,26 @@
           >{{ tech }}</span
         >
       </div>
-      <a
-        *ngIf="githubUrl()"
-        [href]="githubUrl()"
-        class="btn btn-github me-2"
-        target="_blank"
-        rel="noopener"
-      >
-        Visit GitHub
-      </a>
+      <div class="buttons">
+        <a
+          *ngIf="githubUrl()"
+          [href]="githubUrl()"
+          class="btn btn-github me-2"
+          target="_blank"
+          rel="noopener"
+        >
+          Visit GitHub
+        </a>
+        <a
+          *ngIf="liveDemoUrl()"
+          [href]="liveDemoUrl()"
+          class="btn btn-live-demo me-2"
+          target="_blank"
+          rel="noopener"
+        >
+          Try Live Demo
+        </a>
+      </div>
     </div>
   </div>
 </div>
-<!-- </div> -->
