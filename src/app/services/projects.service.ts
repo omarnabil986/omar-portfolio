@@ -40,6 +40,24 @@ export class ProjectsService {
         techStack: ['ASP.NET Core', 'C#', 'EF Core', 'SQL Server'],
         githubUrl: 'https://github.com/mazenaym/Library',
       },
+      {
+        imageUrl: 'assets/projects/guessMyNumber.png',
+        name: 'Guess My Number Game',
+        description: 'A fun number guessing game built with javascript',
+        techStack: ['JavaScript', 'HTML', 'CSS'],
+        githubUrl:
+          'https://github.com/omarnabil986/JavaScript-projects/tree/main/Guess-My-Number',
+        liveDemoUrl: 'https://guess-my-number-omar.netlify.app/',
+      },
+      {
+        imageUrl: 'assets/projects/Mapty.png',
+        name: 'Mapty App',
+        description: 'Activity Logging Web Application',
+        techStack: ['JavaScript', 'HTML', 'CSS'],
+        githubUrl:
+          'https://github.com/omarnabil986/JavaScript-projects/tree/main/Mapty',
+        liveDemoUrl: 'https://mapty-omar.netlify.app/',
+      },
     ];
   }
 }
