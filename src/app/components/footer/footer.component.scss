@@ -1,0 +1,17 @@
+@import "../../../styles/main.scss";
+
+.footer {
+  background-color: $color-primary;
+  color: $color-white;
+  padding: 2rem;
+  display: flex;
+
+  &-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+
+    & span {
+      color: $color-tertiary-light;
+    }
+  }
+}
