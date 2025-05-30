@@ -1,0 +1,58 @@
+@import "../../../styles/main.scss";
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  width: 28rem;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 50px;
+  margin: 15px;
+  transition: 0.5s ease;
+
+  &:hover {
+    box-shadow: 0 10px 30px rgba(1 1 1 / 20%);
+    transform: scale(1.1);
+  }
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card .icon {
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon svg {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.info {
+  text-align: center;
+
+  & p {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+
+.info h3 {
+  color: $color-primary-dark;
+
+  font-weight: 700;
+  margin: 10px;
+}
