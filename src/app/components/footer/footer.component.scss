@@ -18,6 +18,11 @@
   }
 }
 
+.social-icons {
+  display: flex;
+  gap: 2rem;
+}
+
 .social-icons a {
   & svg {
     fill: $color-white;
