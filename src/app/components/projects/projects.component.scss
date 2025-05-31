@@ -3,3 +3,9 @@
 .g-4 {
   gap: 4rem;
 }
+
+@media (max-width: 768px) {
+  .col-1-of-3 {
+    width: 100% !important;
+  }
+}
