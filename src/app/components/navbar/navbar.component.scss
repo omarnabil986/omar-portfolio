@@ -9,6 +9,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 150px;
+
+  @media (max-width: 768px) {
+    padding: 2px 90px 2px 20px;
+  }
 }
 
 .logo {
@@ -33,5 +37,9 @@ header {
 
   &:hover {
     color: $color-tertiary-light;
+  }
+
+  @media (max-width: 768px) {
+    padding-left: 10px;
   }
 }
