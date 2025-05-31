@@ -4,6 +4,19 @@
   gap: 4rem;
 }
 
+@media (max-width: 1024px) {
+  .col-1-of-3 {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 910px) {
+  .col-1-of-3 {
+    width: 100% !important;
+  }
+}
+
 @media (max-width: 768px) {
   .col-1-of-3 {
     width: 100% !important;

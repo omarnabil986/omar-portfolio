@@ -72,6 +72,13 @@
   transition: all 0.5s ease;
   & img {
     transition: all 0.3s ease;
+
+    @media (max-width: 1024px) {
+      width: 400px;
+    }
+    @media (max-width: 768px) {
+      max-width: 400px;
+    }
   }
   &:hover {
     transform: scale(1.05);
